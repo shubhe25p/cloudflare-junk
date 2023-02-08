@@ -1,0 +1,10 @@
+name = "workers"
+main = "src/index.ts"
+compatibility_date = "2023-01-24"
+
+kv_namespaces = [
+    { binding = "TOTALREQKV", id="d2a41b95195240788c5bb3ad4ada2e22", preview_id="d2a41b95195240788c5bb3ad4ada2e22" },
+    { binding = "HTTPREQKV", id="fcf3594b9f6940bc981e6b9ff9419e78", preview_id="fcf3594b9f6940bc981e6b9ff9419e78"},
+    { binding = "DOMAINKV", id="9faab0c518744f27b894363ccb0258c1", preview_id="9faab0c518744f27b894363ccb0258c1"},
+    { binding = "ATTACKL3KV", id="4620943da9344494a50b3bdc9dd74911", preview_id="4620943da9344494a50b3bdc9dd74911"}
+]
